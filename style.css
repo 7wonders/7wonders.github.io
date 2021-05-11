@@ -1,0 +1,125 @@
+body {
+  background-image: url(img/pyramids.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.navbar a {
+  color: white !important;
+}
+
+.navbar.scroll {
+  background: white !important;
+  opacity: 0.9;
+  transition: 1s;
+}
+
+.navbar.scroll a {
+  color: green !important;
+}
+
+.navbar.scroll a.active {
+  color: yellowgreen !important;
+}
+
+ul {
+  font-family: roboto !important;
+}
+
+#carousel {
+  margin-top: 80px;
+}
+
+.jumbotron {
+  opacity: 0.9;
+  background: lightyellow;
+  color: dimgray;
+}
+
+.card {
+  background: none;
+  border: none;
+}
+
+button {
+  opacity: 0.9;
+}
+
+.modal-title {
+  margin: auto;
+  color: dimgray;
+}
+
+.modal-body {
+  color: dimgray;
+}
+
+.contact {
+  padding: 70px 0px;
+}
+
+h2 {
+  color: white;
+}
+
+.contact input,
+.contact textarea {
+  background: whitesmoke;
+  opacity: 0.9;
+}
+
+.contact textarea {
+  min-height: 188px;
+  max-width: 100%;
+}
+
+.contact .map {
+  overflow: hidden;
+}
+
+.go-top {
+  position: fixed;
+  bottom: 10px;
+  right: 20px;
+  display: none;
+  color: white !important;
+}
+
+.fa-facebook-square {
+  margin: 10px;
+  color: #013b80;
+}
+
+.fa-odnoklassniki-square {
+  margin: 10px;
+  color: #f58220;
+}
+
+.fa-youtube-play {
+  margin: 10px;
+  color: #ff0000;
+}
+
+.fa-twitter {
+  margin: 10px;
+  color: #1ca0f1;
+}
+
+.fa-instagram {
+  margin: 10px;
+  color: #d82678;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.copyright {
+  color: black;
+}
