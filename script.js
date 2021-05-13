@@ -11,7 +11,7 @@ window.addEventListener("scroll", (event) => {
 window.addEventListener("scroll", () => {
   let scrollDistance = window.scrollY;
 
-  if (window.innerWidth > 768) {
+  if (window.innerWidth > 0) {
     document.querySelectorAll(".change").forEach((el, i) => {
       if (
         el.offsetTop - document.querySelector(".navbar").clientHeight <=
